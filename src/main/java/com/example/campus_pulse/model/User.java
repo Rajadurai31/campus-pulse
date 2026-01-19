@@ -8,6 +8,7 @@ public class User {
     private String role; // ADMIN or STUDENT
 
     public User() {
+
     }
 
     public User(Long id, String username, String email, String role) {
@@ -47,6 +48,8 @@ public class User {
     }
 
     public void setRole(String role) {
+
+
         this.role = role;
     }
 
